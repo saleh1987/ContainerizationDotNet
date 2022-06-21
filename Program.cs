@@ -17,7 +17,7 @@ var app = builder.Build();
 // }
 
 app.UseHttpsRedirection();
-
+// add auther
 app.UseAuthorization();
 
 app.MapControllers();
